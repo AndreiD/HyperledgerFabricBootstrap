@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Usage  
-# sudo wget -O - https://raw.githubusercontent.com/AndreiD/FabricBootsrap/master/required.sh | bash
+# sudo wget -O - https://raw.githubusercontent.com/AndreiD/HyperledgerFabricBootstrap/master/required.sh | bash
 
  #stops the execution of a script if a command or pipeline has an error
  set -e
