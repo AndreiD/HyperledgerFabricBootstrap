@@ -32,3 +32,5 @@ cd fabric-samples/
 git fetch --all --tags --prune
 
 git checkout v1.1.0
+
+curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
