@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This will install the fabric samples. Before you run this, make sure you ran the prereqs first.
+# This will install the fabric samples. Before you run this, make sure you ran "required.sh" first.
 
 # Usage  
 # sudo wget -O - https://raw.githubusercontent.com/AndreiD/HyperledgerFabricBootstrap/master/fabricsamples.sh | bash
