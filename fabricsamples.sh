@@ -37,6 +37,22 @@ git checkout v1.1.0
 # go back to home
 cd $HOME
 
-echo -e "${green}..........Download Platform-specific Binaries..........${end}"
+echo -e "${green}..........Downloading & Extracting Platform-specific Binaries..........${end}"
 
 curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
+
+export PATH=$HOME/fabric-samples/bin:$PATH
+
+echo -e "${green}..........Making Sure Everything is Ok..........${end}"
+
+echo -e "${green}..........Listing the docker images available..........${end}"
+docker-images
+
+echo -n 'Orderer:'
+orderer version
+
+echo -e "${green}..........Sit Back And Relax..........${end}"
+sleep 5
+cd $HOME/fabric-samples/first-network
+./byfn.sh -m generate
+
