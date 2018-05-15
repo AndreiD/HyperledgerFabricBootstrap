@@ -26,5 +26,9 @@ if [ -d "fabric-samples" ]; then
 fi
 
 git clone -b master https://github.com/hyperledger/fabric-samples.git
-cd fabric-samples
-git checkout version 1.1.0
+cd fabric-samples/
+
+#make sure that the tag exists locally by doing
+git fetch --all --tags --prune
+
+git checkout v1.1.0
