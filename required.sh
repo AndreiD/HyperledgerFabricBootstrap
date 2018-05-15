@@ -104,6 +104,14 @@ if [ ${COUNT} -ne 1 ]
 then
    sudo apt-get install -y python-minimal
 fi
+
+
+echo -e "${green}..........Go..........${end}"
+cd /tmp
+wget -q https://storage.googleapis.com/golang/getgo/installer_linux
+chmod +x installer_linux 
+./installer_linux 
+
 echo ""
 echo ""
 echo -e "${green}...................FINISHED.....................${end}"
@@ -118,5 +126,4 @@ docker-compose --version
 echo -n 'Python:'
 python -V
 echo -e "${green}........................................${end}"
-
 
