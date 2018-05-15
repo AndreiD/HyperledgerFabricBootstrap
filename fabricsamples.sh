@@ -17,7 +17,7 @@ green="\033[0;32m"
 #echo "${red}Error: Ubuntu ${CODENAME} is not supported${end}"
 #echo -e "${green}..........Updating Packages..........${end}"
 
-echo -e "${green}..........Downloading fabric-samples..........${end}"
+echo -e "${green}..........Cloning Fabric Samples..........${end}"
 cd $HOME
 
 # if it exists, delete it
@@ -33,4 +33,5 @@ git fetch --all --tags --prune
 
 git checkout v1.1.0
 
+echo -e "${green}..........Download Platform-specific Binaries..........${end}"
 curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
