@@ -135,3 +135,9 @@ echo -n 'Go:'
 go version
 echo -e "${green}........................................${end}"
 
+echo ""
+echo ""
+echo -e "${green}...................please logout / login now.....................${end}"
+echo -e "${green}...................please logout / login now.....................${end}"
+echo -e "${green}...................please logout / login now.....................${end}"
+
