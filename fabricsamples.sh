@@ -38,4 +38,5 @@ git checkout v1.1.0
 cd $HOME
 
 echo -e "${green}..........Download Platform-specific Binaries..........${end}"
-curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
+
+sudo curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
