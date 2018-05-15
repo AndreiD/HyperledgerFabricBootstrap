@@ -33,5 +33,9 @@ git fetch --all --tags --prune
 
 git checkout v1.1.0
 
+
+# go back to home
+cd $HOME
+
 echo -e "${green}..........Download Platform-specific Binaries..........${end}"
 curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
