@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This will install all the required software to get starting with hyperledger fabric
+
 # Usage  
 # sudo wget -O - https://raw.githubusercontent.com/AndreiD/HyperledgerFabricBootstrap/master/required.sh | bash
 
