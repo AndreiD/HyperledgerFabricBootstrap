@@ -55,6 +55,9 @@ sudo apt install -y nethogs htop unzip
 echo -e "${green}..........Instaling Git..........${end}"
 sudo apt install -y git
 
+# Configure git
+git config --global core.autocrlf false
+git config --global core.longpaths true
 
 echo -e "${green}..........NVM..........${end}"
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
