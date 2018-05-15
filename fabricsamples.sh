@@ -52,7 +52,15 @@ echo -n 'Orderer:'
 orderer version
 
 echo -e "${green}..........Sit Back And Relax..........${end}"
+echo -e "${green}..........Script will answer Yes automatically to every question..........${end}"
 sleep 5
 cd $HOME/fabric-samples/first-network
-./byfn.sh -m generate
+yes | ./byfn.sh -m generate
 
+echo -e "${green}.......... Bringing Up The Network!..........${end}"
+yes | ./byfn.sh -m up
+
+echo -e "${green}..........Kill Containers, Remove crypto and artifacts..........${end}"
+sleep 5
+./byfn.sh -m down
+echo -e "${green}.......... Finished! Good luck!..........${end}"
