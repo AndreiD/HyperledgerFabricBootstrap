@@ -111,6 +111,7 @@ cd /tmp
 wget -q https://storage.googleapis.com/golang/getgo/installer_linux
 chmod +x installer_linux 
 ./installer_linux 
+souce $HOME/.bash_profile
 
 echo ""
 echo ""
@@ -125,5 +126,7 @@ echo -n 'Docker Compose: '
 docker-compose --version
 echo -n 'Python:'
 python -V
+echo -n 'Go'
+go version
 echo -e "${green}........................................${end}"
 
