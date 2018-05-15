@@ -137,7 +137,7 @@ echo -e "${green}........................................${end}"
 
 echo ""
 echo ""
-echo -e "${green}...................please logout / login now.....................${end}"
-echo -e "${green}...................please logout / login now.....................${end}"
-echo -e "${green}...................please logout / login now.....................${end}"
+echo -e "${green}...................please relog now.....................${end}"
+echo -e "${green}...................please relog now.....................${end}"
+echo -e "${green}...................please relog now.....................${end}"
 
