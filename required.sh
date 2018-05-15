@@ -129,7 +129,7 @@ echo -n 'Docker Compose: '
 docker-compose --version
 echo -n 'Python:'
 python -V
-echo -n 'Go'
+echo -n 'Go:'
 go version
 echo -e "${green}........................................${end}"
 
