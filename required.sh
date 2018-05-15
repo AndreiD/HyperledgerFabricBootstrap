@@ -114,7 +114,7 @@ cd /tmp
 wget -q https://storage.googleapis.com/golang/getgo/installer_linux
 chmod +x installer_linux 
 ./installer_linux 
-souce $HOME/.bash_profile
+source $HOME/.bash_profile
 
 echo ""
 echo ""
