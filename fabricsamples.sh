@@ -39,4 +39,4 @@ cd $HOME
 
 echo -e "${green}..........Download Platform-specific Binaries..........${end}"
 
-sudo curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
+curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
