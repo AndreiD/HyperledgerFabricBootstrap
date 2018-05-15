@@ -27,4 +27,4 @@ fi
 
 git clone -b master https://github.com/hyperledger/fabric-samples.git
 cd fabric-samples
-git checkout v.1.1.0
+git checkout version 1.1.0
