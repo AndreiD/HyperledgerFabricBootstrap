@@ -22,7 +22,7 @@ cd $HOME
 
 # if it exists, delete it
 if [ -d "fabric-samples" ]; then
-  rmdir -rf "fabric-samples"
+  rm -rf "fabric-samples"
 fi
 
 git clone -b master https://github.com/hyperledger/fabric-samples.git
