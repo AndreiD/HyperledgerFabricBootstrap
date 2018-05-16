@@ -46,7 +46,7 @@ export PATH=$HOME/fabric-samples/bin:$PATH
 echo -e "${green}..........Making Sure Everything is Ok..........${end}"
 
 echo -e "${green}..........Listing the docker images available..........${end}"
-docker-images
+docker images
 
 echo -n 'Orderer:'
 orderer version
