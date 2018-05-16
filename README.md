@@ -10,6 +10,8 @@ A set of scripts to make it easier for you to start developing with Hyperledger 
 #### Install the required software (git, docker, python etc.)
 ~~~~
 sudo wget -O - https://raw.githubusercontent.com/AndreiD/HyperledgerFabricBootstrap/master/required.sh | bash
+
+sudo wget -O - https://raw.githubusercontent.com/AndreiD/HyperledgerFabricBootstrap/master/fabricsamples.sh | bash
 ~~~~
 
 ### Want to contribute ?
