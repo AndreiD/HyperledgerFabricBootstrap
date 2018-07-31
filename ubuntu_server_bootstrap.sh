@@ -3,7 +3,7 @@
 # This will install all the required software to get starting with ubuntu server
 
 # Usage  
-# sudo wget -O - https://click_view_raw_copy_url | bash
+# sudo wget -O - https://raw.githubusercontent.com/AndreiD/HyperledgerFabricBootstrap/master/ubuntu_server_bootstrap.sh | bash
 
  #stops the execution of a script if a command or pipeline has an error
  set -e
