@@ -117,7 +117,9 @@ wget -q https://storage.googleapis.com/golang/getgo/installer_linux
 chmod +x installer_linux 
 ./installer_linux 
 source $HOME/.bash_profile
-
+echo 'export GOPATH=$HOME/go' >> ~/.bashrc 
+echo 'export PATH=${PATH}:${GOPATH}/bin' >> ~/.bashrc 
+source ~/.bashrc 
 echo ""
 echo ""
 echo -e "${green}...................FINISHED.....................${end}"
@@ -137,7 +139,7 @@ echo -e "${green}........................................${end}"
 
 echo ""
 echo ""
-echo -e "${green}...................please relog now.....................${end}"
-echo -e "${green}...................please relog now.....................${end}"
-echo -e "${green}...................please relog now.....................${end}"
+echo -e "${green}................... Installing Hyperledger Fabric Docker Images.....................${end}"
 
+cd ~
+sudo wget -O - https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash
