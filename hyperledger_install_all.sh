@@ -122,7 +122,7 @@ echo 'export PATH=${PATH}:${GOPATH}/bin' >> ~/.bashrc
 source ~/.bashrc 
 echo ""
 echo ""
-echo -e "${green}...................FINISHED.....................${end}"
+echo -e "${green}...................FINISHED REQUIRED.....................${end}"
 echo -n 'Node:'
 node --version
 echo -n 'npm:'
@@ -135,7 +135,8 @@ echo -n 'Python:'
 python -V
 echo -n 'Go:'
 go version
-echo -e "${green}........................................${end}"
+sleep 5
+echo -e "${green}.................CTRL+C To End.......................${end}"
 
 echo ""
 echo ""
@@ -143,3 +144,6 @@ echo -e "${green}................... Installing Hyperledger Fabric Docker Images
 
 cd ~
 sudo wget -O - https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash
+export PATH=$HOME/fabric-samples/bin:$PATH
+echo -e "${green}..................Checking if everything is ok.....................${end}"
+cryptogen version
